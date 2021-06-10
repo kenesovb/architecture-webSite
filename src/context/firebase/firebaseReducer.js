@@ -1,9 +1,9 @@
-import { GET_TEXT, SHOW_LOADER } from "../types"
+import { GET_HOME_PAGE_DATA,GET_LINKS, SHOW_LOADER } from "../types"
 
 const handlers = {
     [SHOW_LOADER]: state => ({...state, loading:true}),
-    [GET_TEXT]: (state, {payload}) => ({...state, text: payload, loading: false}),
-    
+    [GET_HOME_PAGE_DATA]: (state, {payload}) => ({...state, text: payload, loading: false}),
+    [GET_LINKS]: (state, {payload}) => ({...state, links: payload}),
     DEFAULT: state => state
 }
 
