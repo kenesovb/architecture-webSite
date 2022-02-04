@@ -14,7 +14,7 @@ function App() {
     <FirebaseState>
       <BrowserRouter>
         <Navbar />
-        <div className="container pt-4">
+        <div>
           <Switch>
             <Route path={"/"} exact component={Home} />
             <Route path={"/about"} exact component={About} />

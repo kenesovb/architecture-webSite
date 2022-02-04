@@ -1,0 +1,55 @@
+.main-container {
+  position: relative;
+}
+
+.main-text {
+  position: absolute;
+  font-weight: 700;
+  color: #242424;
+  font-size: 24px;
+  background-color: #99ccff;
+  text-align: center;
+  width: 50%;
+  bottom: 10%;
+  left: 25%;
+}
+
+.main-image {
+  height: 90vh;
+  width: 100%;
+}
+
+.sub-container {
+  background-color: #f7f8e8;
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+}
+
+.sub-link {
+  font-size: 15px;
+  font-weight: 400;
+  border: 2px solid #79b622;
+  color: #2e464f;
+  border-radius: 19px;
+  height: 40px;
+  cursor: pointer;
+
+  &.__padding {
+    padding: 5px 13px;
+  }
+
+  &.__margin {
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+}
+
+.sub-link:hover {
+  background-color: #79b622;
+  color: white;
+}
+
+.text-container {
+  text-align: center;
+}

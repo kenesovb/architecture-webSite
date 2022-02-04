@@ -1,0 +1,25 @@
+.nav-container {
+  height: 110px;
+}
+
+.main-logo {
+  &.__margin {
+    margin-left: 50px;
+  }
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.navbar {
+  list-style-type: none;
+
+  & > li > a {
+    color: #242424;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
