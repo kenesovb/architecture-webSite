@@ -9,6 +9,7 @@ import { Home } from "./pages/Home";
 import { Projects } from "./pages/Projects";
 import { Reviews } from "./pages/Reviews";
 import { Services } from "./pages/Services";
+import {Partnership} from "./pages/Partnership";
 function App() {
   return (
     <FirebaseState>
@@ -22,6 +23,7 @@ function App() {
             <Route path={"/contacts"} exact component={Contacts} />
             <Route path={"/projects"} exact component={Projects} />
             <Route path={"/services"} exact component={Services} />
+            <Route path={"/partnership"} exact component={Partnership} />
           </Switch>
         </div>
         <Footer />
