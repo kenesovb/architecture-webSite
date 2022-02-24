@@ -34,14 +34,17 @@ export const Home = () => {
                 <span className="sub-link __padding __margin" onClick={() => history.push('/services')}>
                     Услуги
                 </span>
-                <span className="sub-link __padding __margin" onClick={() => history.push('/contacts')}>
-                    Контакты
-                </span>
                 {/*<span className="sub-link __padding __margin">*/}
                 {/*    Корпоративные мероприятия*/}
                 {/*</span>*/}
+                <span className="sub-link __padding __margin" onClick={() => history.push('/reviews')}>
+                    Отзывы
+                </span>
                 <span className="sub-link __padding __margin" onClick={() => history.push('/partnership')}>
                     Партнерство
+                </span>
+                <span className="sub-link __padding __margin" onClick={() => history.push('/contacts')}>
+                    Контакты
                 </span>
                 {/*<span className="sub-link __padding __margin">*/}
                 {/*    Вакансии*/}

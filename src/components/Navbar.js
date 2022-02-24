@@ -1,6 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import LogoIcon from "../ui/Header/Icon/LogoIcon";
+import Sch from "../assets/img/logo.png";
 
 import "./style.scss";
 
@@ -30,12 +31,7 @@ export const Navbar = () => (
     <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
             <div className="navbar-brand">
-                <LogoIcon
-                    originalHeight={18}
-                    originalWidth={24}
-                    width="100px"
-                    height="100px"
-                />
+                <img src={Sch} className="logo-img" />
             </div>
 
             <ul className="navbar-nav">
@@ -47,6 +43,11 @@ export const Navbar = () => (
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/services">
                         Услуги
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/reviews">
+                        Отзывы
                     </NavLink>
                 </li>
                 <li className="nav-item">

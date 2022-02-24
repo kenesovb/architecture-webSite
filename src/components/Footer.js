@@ -2,6 +2,7 @@ import React, { useEffect, useContext } from "react";
 import { FirebaseContext } from "../context/firebase/FirebaseContext";
 import { firebaseReducer } from "../context/firebase/firebaseReducer";
 import "./footer.css";
+import "./footer-mobile.scss";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
