@@ -17,7 +17,7 @@ export const Partnership = () => {
                     src={ MainImage }
                 />
             </div>
-            <div className="text-container __padding">
+            <div className="text-container">
                 <h2> Наши партнеры </h2>
                 <img src={ Avrora } className="partner-img __padding" />
                 <img src={ Bazis } className="partner-img __padding" />

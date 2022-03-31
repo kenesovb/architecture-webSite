@@ -27,7 +27,7 @@ export const Reviews = () => {
                     src={ MainImage }
                 />
             </div>
-            <div className="text-container __padding">
+            <div className="text-container">
                 <h2> Отзывы </h2>
                 <img
                     src={ AvroraReview }
